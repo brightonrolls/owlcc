@@ -1,7 +1,7 @@
 {
   "name": "Becks Insurance Contact Hub",
   "description": "Customer Experience Centre.",
-  "repository": "https://github.com/brightonrolls/owlcc",
+  "repository": "https://github.com/tigerfarm/owlcc",
   "logo": "https://becks.network/____impro/1/onewebmedia/Wordpress%20Transparent.png?etag=W%2F%229248-63e1d60c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=120%2B120",
   "keywords": ["php", "Twilio", "Contact Center"]
 }
