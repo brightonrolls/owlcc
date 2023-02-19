@@ -1,0 +1,33 @@
+{
+    "name": "twilio-taskrouter",
+    "title": "Twilio TaskRouter",
+    "version": "0.7.3-dev",
+    "description": "Twilio TaskRouter JavaScript library",
+    "homepage": "https://www.twilio.com",
+    "author": "Wanjun Li <wli@twilio.com>",
+    "contributors": [
+        "Martin Amps <martin@twilio.com>",
+        "Mehul Chopra <mchopra@twilio.com>",
+        "Alex Laird <alaird@twilio.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "twilio",
+        "library",
+        "javascript",
+        "taskrouter",
+        "worker"
+    ],
+    "files": [
+        "dist"
+    ],
+    "main": "./",
+    "browser": "./",
+    "scripts": {
+        "build:dev": "npm run webpack development",
+        "build:prod": "npm run webpack production",
+        "prebuild": "npm run clean && yarn install",
+        "build": "npm run lint && npm run build:prod",
+        "postbuild": "npm run docs && npm run coverage",
+        "test:setup": "node test/integration_test_setup/IntegrationTestSetup.js"
+    },
