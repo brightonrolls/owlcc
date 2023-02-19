@@ -7,7 +7,7 @@
     width: 780px;
     margin: 6px 0px 0px 120px;
     padding: 6px 0px 20px 0px;
-    font: Helvetica,Arial,sans-serif;
+    font: Ubuntu,sans-serif;
     font-size: 14px; 
     text-align: center;
     color: rgba(255,255,255,.65); 
@@ -57,7 +57,7 @@ h1 {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Arial;
+    font-family: Ubuntu;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
